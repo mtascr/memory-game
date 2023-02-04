@@ -1,0 +1,51 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid {
+  width: 400px;
+  height: 300px;
+  border: 1px solid black;
+  margin-top: 20px;
+}
+
+.score h3 {
+  background-color: lightseagreen;
+  font-size: 24px;
+
+}
+
+.statistics-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.counter-container {
+  display: flex;
+  flex-direction: row;
+}
+
+h3 {
+  margin: 10px;
+  background-color: lightcoral;
+  padding: 10px 20px;
+  border: 2px solid black;
+}
+
+.startBtn {
+  margin: 10px;
+  background-color: lightgray;
+  padding: 10px 20px;
+  border: 2px solid black;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.startBtn:active {
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+}
